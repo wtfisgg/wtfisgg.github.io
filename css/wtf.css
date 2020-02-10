@@ -1,3 +1,21 @@
+body {
+  background-color: #2e3436;
+  color: #eeeeec;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* WORDS SWAP */
+[data-words]{
+  vertical-align: top;
+  position: static;
+}
+[data-words] > span{
+  position: absolute;
+}
+
 header {
   position: relative;
   background-color: black;
